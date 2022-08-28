@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import DragNDrop from "./DragNDrop";
 
 const defaultData = [
-  { title: "To Do", items: ["Task 1", "Frontend Engineering", "3"] },
-  { title: "In Progress", items: ["4", "5"] },
+  { title: "To Do", items: ["Task 1", "Frontend Engineering ", "Backend API"] },
+  { title: "In Progress", items: ["DBMS", "Deployment"] },
   { title: "Done", items: ["Something", "sometinh"] },
 ];
 function Board() {
